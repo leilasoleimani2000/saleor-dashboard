@@ -13,18 +13,7 @@ export interface CityDialogFormProps {
 }
 
 const useStyles = makeStyles(
-  theme => ({
-    select: {
-      height: theme.spacing(8),
-      width: "100%",
-      padding: "6px 0 7px",
-      borderRadius: "4px",
-      paddingRight: 0,
-      background: "none",
-      borderColor: "#c7c7c7",
-      color: "rgba(37, 41, 41, 1)",
-      animationDuration: "10ms",
-    },
+  () => ({
     input: {
       marginBottom: "20px",
     },
