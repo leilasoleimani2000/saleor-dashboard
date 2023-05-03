@@ -59,7 +59,6 @@ export const ProvinceList = (props: ProvinceListPageProps) => {
   const [openedAcc, setOpenedAcc] = useState("");
 
   const handleAccordionOpen = (item: IProvinces) => {
-    // debugger;
     if (openedAcc !== item.id) {
       setOpenedAcc(item.id);
     } else {
