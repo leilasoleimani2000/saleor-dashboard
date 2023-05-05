@@ -25,7 +25,7 @@ const CityDialogForm = (props: CityDialogFormProps) => {
   const { provinces, onClose, onSubmit, selectedCity, type } = props;
   const [name, setName] = useState(type === "add" ? "" : selectedCity.name);
   const [provinceId, setProvinceId] = useState(
-    type === "add" ? "1" : selectedCity.provinceId,
+    type === "add" ? provinces[0].id : selectedCity.provinceId,
   );
   const [priority, setPriority] = useState(
     type === "add" ? "" : selectedCity.priority,
