@@ -18,7 +18,7 @@ const ProvinceHeader = (props: HeaderProps) => {
         <ButtonWithSelect
           onClick={handleCreatCity}
           options={[]}
-          data-test-id="create-customer"
+          data-test-id="create-city"
         >
           <FormattedMessage
             id="Px/gVb"
